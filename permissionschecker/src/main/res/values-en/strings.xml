@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PermissionsChecker</string>
+    <string name="check_info_title">Permission Info</string>
+    <string name="check_info_message">required basic permissions to run the application, please open the permissions in the settings and then use</string>
+    <string name="check_info_exit">cancel</string>
+    <string name="check_info_setting">setting</string>
+    <string name="check_open">Magic Time！Call Phone！</string>
+
+</resources>
