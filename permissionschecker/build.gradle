@@ -29,3 +29,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    userOrg = 'werbhelius'
+    groupId = 'com.werb.permissionschecker'
+    artifactId = 'permissionschecker'
+    publishVersion = '0.0.1-beta1'
+    desc = 'PermissionsChecker Of Android Library'
+    website = 'https://github.com/Werb/PermissionsCheckerSample'
+}
