@@ -51,7 +51,7 @@ A Library help u to check permissions on Android M.
   permissionChecker.setMessage(getString(R.string.check_info_message)); // we have default value , just as screenshot
 ```
 
-* 第三步：check Permissions
+* Third ：check Permissions
 
 ```
   // check if lack Permissions
@@ -62,7 +62,7 @@ A Library help u to check permissions on Android M.
   }
 ```
 
-* 第四步：Permissions call back
+* Fourth ：Permissions call back
 
 ```
   @Override
