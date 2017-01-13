@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">PermissionsChecker</string>
-    <string name="check_open">魔法开启！打电话！</string>
+    <string name="check_open">魔法开启!</string>
 
 </resources>
