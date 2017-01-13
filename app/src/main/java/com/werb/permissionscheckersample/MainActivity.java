@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private PermissionChecker permissionChecker;
     static final String[] PERMISSIONS = new String[]{
-            Manifest.permission.CALL_PHONE,
+            Manifest.permission.CAMERA,
             Manifest.permission.READ_EXTERNAL_STORAGE
     };
 
@@ -42,18 +42,15 @@ public class MainActivity extends AppCompatActivity {
                 if (permissionChecker.isLackPermissions(PERMISSIONS)) {
                     permissionChecker.requestPermissions();
                 } else {
-                    call();
+                    open();
                 }
             }
         });
 
     }
 
-    private void call() {
-        String phone = "123";
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:" + phone));
+    private void open() {
+        Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivity(intent);
     }
 
@@ -63,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case PermissionChecker.PERMISSION_REQUEST_CODE:
                 if (permissionChecker.hasAllPermissionsGranted(grantResults)) {
-                    call();
+                    open();
                 } else {
                     permissionChecker.showDialog();
                 }
