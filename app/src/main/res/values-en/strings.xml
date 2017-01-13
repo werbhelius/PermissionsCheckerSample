@@ -1,4 +1,4 @@
-<resources>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">PermissionsChecker</string>
     <string name="check_open">Magic Time！Open！</string>
 

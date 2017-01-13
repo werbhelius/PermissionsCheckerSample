@@ -1,4 +1,4 @@
-<resources>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
     <string name="check_info_title">权限提示</string>
     <string name="check_info_message">未获得应用运行所需的基本权限，请在设置中开启权限后再使用</string>
     <string name="check_info_exit">取消</string>

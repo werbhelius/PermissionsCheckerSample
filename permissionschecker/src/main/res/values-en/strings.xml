@@ -1,4 +1,4 @@
-<resources>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
     <string name="check_info_title">Permission Info</string>
     <string name="check_info_message">required basic permissions to run the application, please open the permissions in the settings and then use</string>
     <string name="check_info_exit">cancel</string>
