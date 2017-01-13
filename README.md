@@ -7,6 +7,12 @@ A Library help u to check permissions on Android M.
 
 [中文版](https://github.com/Werb/PermissionsCheckerSample/blob/master/README_ZH.md)
 
+## Screenshot
+
+<img src="/screenshot/home_en.png" alt="screenshot" title="home" width="270" height="486" /> <img src="/screenshot/permission_en.png" alt="screenshot" title="permission" width="270" height="486" />
+
+<img src="/screenshot/info_en.png" alt="screenshot" title="info" width="270" height="486" /> <img src="/screenshot/setting_en.png" alt="screenshot" title="setting" width="270" height="486" />
+
 ## Dependency
 
 #### Gradle
@@ -80,3 +86,7 @@ Part of the domestic mobile phone to modify the permissions settings, if any abn
 Here will collect some known issues, if there is a good suggest, please contact me with issue
 
 * request android.permission.CALL_PHONE 时，if u call number with “ intent.setAction(Intent.ACTION_CALL) ” ，Mi Phone will disregard the permission request instead execute their own permission settings
+
+## License
+
+[Apache2.0](https://github.com/Werb/PermissionsCheckerSample/blob/master/LICENSE)
