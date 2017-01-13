@@ -85,7 +85,7 @@ Part of the domestic mobile phone to modify the permissions settings, if any abn
 #### Known bug
 Here will collect some known issues, if there is a good suggest, please contact me with issue
 
-* request android.permission.CALL_PHONE 时，if u call number with “ intent.setAction(Intent.ACTION_CALL) ” ，Mi Phone will disregard the permission request instead execute their own permission settings
+* when request android.permission.CALL_PHONE ，if u call number with “ intent.setAction(Intent.ACTION_CALL) ” ，Mi Phone will disregard the permission request instead execute their own permission settings
 
 ## License
 
