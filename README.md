@@ -58,7 +58,7 @@ A Library help u to check permissions on Android M.
   if (permissionChecker.isLackPermissions(PERMISSIONS)) {
         permissionChecker.requestPermissions();
   } else {
-        // 执行你的相关操作
+        // do something u want
   }
 ```
 
