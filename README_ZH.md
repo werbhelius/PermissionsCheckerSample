@@ -86,3 +86,7 @@
 这里会收集一些已知问题，若有很好的处理方法，也请及时提 issue 联系我
 
 * 申请 android.permission.CALL_PHONE 时，当遇到 intent.setAction(Intent.ACTION_CALL) 小米手机会走自己的权限提示
+
+## License
+
+[Apache2.0](https://github.com/Werb/PermissionsCheckerSample/blob/master/LICENSE)
