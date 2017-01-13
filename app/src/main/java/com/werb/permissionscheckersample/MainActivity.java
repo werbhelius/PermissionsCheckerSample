@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void open() {
+        // no save path , so just start CAPTURE
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivity(intent);
     }
